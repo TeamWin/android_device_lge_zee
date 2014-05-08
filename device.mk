@@ -21,4 +21,5 @@ $(call inherit-product, device/lge/g2-common/g2.mk)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_COPY_FILES += \
-    device/lge/f340k/kernel:kernel
+    device/lge/f340k/kernel:kernel \
+    device/lge/f340k/twrp.fstab:recovery/root/etc/twrp.fstab
